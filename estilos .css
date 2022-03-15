@@ -1,0 +1,73 @@
+
+
+.parent {
+    display: grid;
+    grid-template-columns: 10px repeat(2, 200px) repeat(3, 100px) 150px 200px;
+    grid-template-rows: 100px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-left: 250px;
+    margin-right: 200px;
+    margin-top: 20px;}
+    
+.div1 { grid-area: 1 / 1 / 2 / 2; font-size: 22px; 
+                                  font-family: 'montserrat', sans-serif; 
+                                  color: #3151cf; 
+                                  display: flex;
+                                  align-items: center;
+                                  padding-left: 30px;}
+
+.div2 { grid-area: 1 / 2 / 2 / 3;}
+.div3 { grid-area: 1 / 3 / 2 / 4; margin-left: 130px;}
+.div4 { grid-area: 1 / 4 / 2 / 5; margin-left: 20px;}
+.div5 { grid-area: 1 / 5 / 2 / 6; margin-left: 20px;}
+.div6 { grid-area: 1 / 6 / 2 / 7;}
+.div7 { grid-area: 1 / 7 / 2 / 8; background-color: #3151cf;
+                                  height: 40%;
+                                  border-radius: 6%; 
+                                  font-family:'Be Vietnam Pro', sans-serif; 
+                                  font-size: 12px; color: #ffffff; 
+                                  letter-spacing: 2%; 
+                                  display: flex;
+                                  align-items: center;
+                                  padding-left: 40px;
+                                  margin-top: 20%;}
+
+.div8 { grid-area: 1 / 8 / 2 / 9;}
+
+
+.div3, .div4, .div5, .div6{font-family:'Be Vietnam Pro', sans-serif;
+                           font-size: 18px;
+                           color: #6d7b93;
+                           letter-spacing: 3%;
+                           display: flex;
+                           align-items: center;}
+
+a:hover{background-color: #77eede;
+        color: #0b0837;}
+
+.vinculosheader{text-decoration: none;
+                color: unset;}
+
+
+
+header{background-color: rgba(255, 255, 255, 0.884);
+       backdrop-filter: blur(2px);
+       -webkit-backdrop-filter: blur(10px);}
+
+       .col-12{ font-size: 18px;font-family:'Be Vietnam Pro', sans-serif;
+    color: grey; font: 150;}
+    
+    .col-6 { color: dimgrey;}
+    .contenedor-icono svg{ color: yellow;}
+
+    .contenedor-iconi svg{color: #140c86;}
+
+
+
+
+
+
+
+
+
